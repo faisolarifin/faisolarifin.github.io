@@ -73,7 +73,6 @@ body {
 
 /*Add custom cursor so it auto inherits font styles*/
 .typed::after {
-    content: '|';
     display: inline;
     -webkit-animation: blink 0.7s infinite;
     -moz-animation: blink 0.7s infinite;
