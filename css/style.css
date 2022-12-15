@@ -1,0 +1,84 @@
+body {
+    background-color: #F9FAFB;
+}
+h1, h2, h3, h4, h5, h6, p, span, label, a {
+    font-family: 'Poppins', sans-serif;
+}
+.top .col-sm-5 {
+    width: 37.223%;
+}
+.top .col-sm-7 {
+    width: 62.75%;
+    padding: 0;
+}
+.text-top-left {
+    padding-left: 152px;
+}
+.img-top-header {
+    min-height: 100vh;
+}
+.img-top-header > img {
+    margin-top: 66px;
+    max-width: 100%;
+}
+.text-top-left h4>.green {
+    color: #53BA55;
+}
+.text-top-left h4 {
+    font-size: 24px;
+    font-weight: 500;
+}
+.text-top-left h1 {
+    font-size: 32px;
+    font-weight: 600;
+}
+.text-top-left h5 {
+    font-size: 18px;
+    font-weight: 400;
+}
+.top .navbar {
+    min-height: 53px;
+    margin-top: -5rem;
+}
+.top .navbar .nav-link {
+    font-size: 18px;
+    font-weight: 400;
+    color: #000;
+    margin-right: 68px;
+}
+
+.icon-social-top {
+    margin-top: 1.6rem;
+    font-size: 1.9em;
+}
+.icon-social-top a {
+   margin-right: 1.2rem;
+}
+.icon-social-top .fa-facebook {
+    color: #0A20E2;
+}
+.icon-social-top .fa-instagram {
+    color: #A30C42;
+}
+.icon-social-top .fa-twitter {
+    color: #117DAB;
+}
+.icon-social-top .fa-linkedin {
+    color: #2E67BD;
+}
+.icon-social-top .fa-graduation-cap {
+    color: #073C7A;
+}
+.icon-social-top .fa-github {
+    color: #171515;
+}
+
+/* aboutme */
+.aboutme h1 {
+    font-size: 48px;
+    font-weight: 400;
+    margin-top: 40px;
+}
+.aboutme .green {
+    color: #00894F;
+}
