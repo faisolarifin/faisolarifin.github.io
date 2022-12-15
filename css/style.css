@@ -4,19 +4,6 @@ body {
 h1, h2, h3, h4, h5, h6, p, span, label, a, ul, li {
     font-family: 'Poppins', sans-serif;
 }
-.top .col-sm-5 {
-    width: 37.223%;
-}
-.top .col-sm-7 {
-    width: 62.75%;
-    padding: 0;
-}
-.text-top-left {
-    padding-left: 152px;
-}
-.img-top-header {
-    min-height: 100vh;
-}
 .img-top-header > img {
     margin-top: 66px;
     max-width: 100%;
@@ -79,6 +66,9 @@ h1, h2, h3, h4, h5, h6, p, span, label, a, ul, li {
     font-weight: 400;
     margin-top: 40px;
 }
+.aboutme img {
+    max-width: 90%;
+}
 .aboutme .green {
     color: #00894F;
 }
@@ -117,3 +107,24 @@ h1, h2, h3, h4, h5, h6, p, span, label, a, ul, li {
     font-size: 48px;
     font-weight: 400;
  }
+
+
+ /* Responsive
+  */
+
+@media (min-width: 576px) {
+    .img-top-header {
+        min-height: 100vh;
+    }
+    .top .col-sm-5 {
+        width: 37.223%;
+    }
+    .top .col-sm-7 {
+        width: 62.75%;
+        padding: 0;
+    }
+    .text-top-left {
+        padding-left: 152px;
+    }
+
+}
