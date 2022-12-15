@@ -24,8 +24,10 @@ h1, h2, h3, h4, h5, h6, p, span, label, a, ul, li {
     font-weight: 400;
 }
 .top .navbar {
-    min-height: 53px;
-    margin-top: -5rem;
+    margin-top: -0.5rem;
+}
+.navbar-toggler {
+    padding: .1rem;
 }
 .top .navbar .nav-link {
     font-size: 18px;
@@ -89,7 +91,7 @@ h1, h2, h3, h4, h5, h6, p, span, label, a, ul, li {
     font-weight: 500;
 }
 .aboutme .context ul {
-    list-style-image: url("../img/ellipse.png");
+    list-style-image: url("../img/ellipse.webp");
 }
 .aboutme .context li {
     font-size: 20px;
@@ -125,6 +127,11 @@ h1, h2, h3, h4, h5, h6, p, span, label, a, ul, li {
     }
     .text-top-left {
         padding-left: 152px;
+    }
+
+    .top .navbar {
+        min-height: 53px;
+        margin-top: -5rem;
     }
 
 }
