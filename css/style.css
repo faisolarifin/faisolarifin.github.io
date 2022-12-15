@@ -1,7 +1,7 @@
 body {
     background-color: #F9FAFB;
 }
-h1, h2, h3, h4, h5, h6, p, span, label, a {
+h1, h2, h3, h4, h5, h6, p, span, label, a, ul, li {
     font-family: 'Poppins', sans-serif;
 }
 .top .col-sm-5 {
@@ -49,7 +49,7 @@ h1, h2, h3, h4, h5, h6, p, span, label, a {
 
 .icon-social-top {
     margin-top: 1.6rem;
-    font-size: 1.9em;
+    font-size: 1.7em;
 }
 .icon-social-top a {
    margin-right: 1.2rem;
@@ -82,3 +82,38 @@ h1, h2, h3, h4, h5, h6, p, span, label, a {
 .aboutme .green {
     color: #00894F;
 }
+.aboutme .context {
+    margin-top: 40px;
+}
+.aboutme .context h2 {
+    font-size: 29px;
+    font-weight: 500;
+}
+.aboutme .context p {
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 2.1;
+}
+.aboutme .context h4 {
+    font-size: 20px;
+    font-weight: 500;
+}
+.aboutme .context ul {
+    list-style-image: url("../img/ellipse.png");
+}
+.aboutme .context li {
+    font-size: 20px;
+    line-height: 1.8;
+}
+.aboutme .context li>span {
+    font-size: 18px;
+}
+
+/* It skills
+ */
+
+ .itskills h1 {
+    margin-top: 56px;
+    font-size: 48px;
+    font-weight: 400;
+ }
