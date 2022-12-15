@@ -58,26 +58,29 @@ h1, h2, h3, h4, h5, h6, p, span, label, a, ul, li {
 }
 
 .icon-social-top {
-    margin-top: 1.6rem;
+    margin-top: 1.5rem;
     font-size: 1.5em;
+}
+.icon-social-top svg {
+    max-width: 23px;
 }
 .icon-social-top a {
    margin-right: 1.2rem;
 }
 .icon-social-top .fa-facebook {
-    color: #0A20E2;
+    fill: #0A20E2;
 }
 .icon-social-top .fa-instagram {
-    color: #A30C42;
+    fill: #A30C42;
 }
 .icon-social-top .fa-twitter {
-    color: #117DAB;
+    fill: #117DAB;
 }
 .icon-social-top .fa-linkedin {
-    color: #2E67BD;
+    fill: #2E67BD;
 }
 .icon-social-top .fa-graduation-cap {
-    color: #073C7A;
+    fill: #073C7A;
 }
 .icon-social-top .fa-github {
     color: #171515;
