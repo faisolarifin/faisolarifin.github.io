@@ -43,16 +43,16 @@ h1, h2, h3, h4, h5, h6, p, span, label, a, ul, li {
     font-size: 18px;
     font-weight: 400;
 }
-.top .navbar {
+.navbar {
     margin-top: -0.5rem;
 }
 .navbar-toggler {
     padding: .1rem;
 }
-.top .navbar .nav-link {
+.navbar .nav-link {
     font-size: 18px;
     font-weight: 400;
-    color: #000;
+    color: #444 !important;
     margin-right: 68px;
 }
 
@@ -158,6 +158,26 @@ h1, h2, h3, h4, h5, h6, p, span, label, a, ul, li {
     font-weight: 400;
  }
 
+ .swiper {
+    width: 100%;
+    padding-top: 20px;
+    padding-bottom: 20px;
+  }
+
+  .swiper-slide {
+    background-position: center;
+    background-size: cover;
+    width: 270px;
+  }
+
+  .swiper-slide img {
+    display: block;
+    width: 100%;
+  }
+  .swiper-wrapper {
+    margin-bottom: 20px;
+  }
+
  /* Footer
   */
 
@@ -191,7 +211,7 @@ footer .icon-social-bottom a {
 
 @media (max-width: 579px) {
     .top .row {
-        height: 80vh;
+        height: 90vh;
     }
 }
 
@@ -213,7 +233,7 @@ footer .icon-social-bottom a {
         padding-left: 152px;
     }
 
-    .top .navbar {
+    .navbar {
         min-height: 53px;
         margin-top: -5rem;
     }
