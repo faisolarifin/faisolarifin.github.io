@@ -58,7 +58,6 @@ h1, h2, h3, h4, h5, h6, p, span, label, a, ul, li {
 
 .icon-social-top {
     margin-top: 1.5rem;
-    font-size: 1.5em;
 }
 .icon-social-top svg {
     max-width: 23px;
@@ -136,10 +135,69 @@ h1, h2, h3, h4, h5, h6, p, span, label, a, ul, li {
     color: #00894F;
  }
 
+ .itskills .card {
+    margin: 0 2.2rem;
+    border: 0;
+ }
+ .itskills .card img {
+    max-width: 163px;
+    max-height: 163px;
+    margin: auto;
+ }
+ .itskills .card h5 {
+    font-size: 24px;
+    font-weight: 400;
+ }
+
+ /* Training History
+ */
+
+ .training h1 {
+    margin-top: 40px;
+    font-size: 32px;
+    font-weight: 400;
+ }
+
+ /* Footer
+  */
+
+footer {
+    background-color: #181818;
+    padding: 2.7rem 0;
+}
+footer .row {
+    color: #fff;
+}
+footer h2 {
+    font-size: 30px;
+    font-weight: 300;
+    margin-bottom: .7rem;
+}
+footer p {
+    font-size: 14px;
+    font-weight: 400;
+    margin-top: 3.8rem;
+}
+
+footer .icon-social-bottom svg {
+    max-width: 30px;
+    padding: 7px;
+    background-color: #EFECEC;
+    border-radius: 50%;
+}
+footer .icon-social-bottom a {
+   margin-right: 1.2rem;
+}
+
+@media (max-width: 579px) {
+    .top .row {
+        height: 80vh;
+    }
+}
+
 
  /* Responsive
   */
-
 @media (min-width: 576px) {
     .img-top-header {
         min-height: 100vh;
