@@ -26,7 +26,6 @@ h1, h2, h3, h4, h5, h6, p, span, label, a, ul, li {
     font-family: 'Poppins', sans-serif;
 }
 .img-top-header > img {
-    margin-top: 66px;
     max-width: 100%;
 }
 .text-top-left h4>.green {
@@ -159,6 +158,9 @@ h1, h2, h3, h4, h5, h6, p, span, label, a, ul, li {
     .top .navbar {
         min-height: 53px;
         margin-top: -5rem;
+    }
+    .img-top-header > img {
+        margin-top: calc(15vh + 0.4rem);
     }
 
 }
