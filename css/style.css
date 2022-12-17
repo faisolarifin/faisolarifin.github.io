@@ -47,7 +47,13 @@ h1, h2, h3, h4, h5, h6, p, span, label, a, ul, li {
     margin-top: -0.5rem;
 }
 .navbar-toggler {
-    padding: .1rem;
+    padding: 0;
+    border: 0;
+}
+.navbar-toggler svg {
+    width: 28px;
+    height: 28px;
+    fill: #171515;
 }
 .navbar .nav-link {
     font-size: 18px;
