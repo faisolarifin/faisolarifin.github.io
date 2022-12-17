@@ -16,8 +16,21 @@ var options = {
 
 var typed = new Typed('.typed', options);
 
+var swiper = new Swiper(".cardSwipper", {
+  slidesPerView: 5,
+  spaceBetween: 30,
+  loop: true,
+  autoplay: {
+      delay: 1
+  },
+  freeMode: true,
+  grabCursor: true,
+  speed: 10000,
+  freeModeMomentum: false
+});
+
 // Initialize Swiper
-var swiper = new Swiper(".mySwiper", {
+var swiper = new Swiper(".imageSwiper", {
     effect: "coverflow",
     grabCursor: true,
     centeredSlides: true,
@@ -34,3 +47,4 @@ var swiper = new Swiper(".mySwiper", {
       el: ".swiper-pagination",
     },
   });
+  
