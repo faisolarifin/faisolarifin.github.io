@@ -263,13 +263,18 @@ section#blogger small {
 }
 .btn-email {
     color: #fff;
-    background-color: #C75838;
-    border-color: #C75838;
+    background-color: #d9491e;
+    border-color: #d9491e;
 }
 .btn-tele {
     color: #fff;
-    background-color: #447593;
-    border-color: #447593;
+    background-color: #188ad2;
+    border-color: #188ad2;
+}
+.btn-run {
+    color: #fff;
+    background-color: #A78700;
+    border-color: #A78700;
 }
 .btn-more:hover {
     background-color: #D7E261;
@@ -310,7 +315,10 @@ section#blogger small {
 @media screen and (max-width: 500px) {
     .column{
         flex: 100%;
-        max-width: 100%;
+        max-width: 50%;
+    }
+    .image-row {
+        padding: 0;
     }
 }
   
