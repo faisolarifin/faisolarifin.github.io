@@ -16,35 +16,6 @@ var options = {
 
 var typed = new Typed('.typed', options);
 
-var swiper = new Swiper(".cardSwipper", {
-  slidesPerView: 5,
-  spaceBetween: 30,
-  loop: true,
-  autoplay: {
-      delay: 1
-  },
-  freeMode: true,
-  grabCursor: true,
-  speed: 10000,
-  freeModeMomentum: false
+Fancybox.bind('[data-fancybox="gallery"]', {
+    // Your custom options
 });
-
-// Initialize Swiper
-var swiper = new Swiper(".imageSwiper", {
-    effect: "coverflow",
-    grabCursor: true,
-    centeredSlides: true,
-    slidesPerView: "auto",
-    initialSlide: 2,
-    coverflowEffect: {
-      rotate: 50,
-      stretch: 0,
-      depth: 100,
-      modifier: 1,
-      slideShadows: true,
-    },
-    pagination: {
-      el: ".swiper-pagination",
-    },
-  });
-  
