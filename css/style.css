@@ -1,352 +1,112 @@
 body {
-    background-color: #F9FAFB;
-}
-h1, h2, h3, h4, h5, h6, p, span, label, a, ul, li, small {
-    font-family: 'Red Hat Display', sans-serif;
-}
-.img-top-header > img {
-    max-width: 100%;
-}
-.text-top-left h4>.green {
-    color: #53BA55;
-}
-.text-top-left h4 {
-    font-size: 24px;
-    font-weight: 500;
-}
-.text-top-left h1 {
-    font-size: 32px;
-    font-weight: 600;
-}
-.text-top-left h5 {
-    font-size: 18px;
-    font-weight: 400;
-}
-.navbar {
-    margin-top: -0.5rem;
-}
-.navbar-toggler {
-    padding: 0;
-    border: 0;
-}
-.navbar-toggler svg {
-    width: 28px;
-    height: 28px;
-    fill: #171515;
-}
-.navbar-nav { 
-    border-radius: .4rem .4rem 0 0;
-    background-color: rgba(228, 153, 13, 0.668);
-}
-.navbar .nav-link {
-    font-size: 18px;
-    font-weight: 400;
-    color: #fff !important;
-    margin: 0 1.7rem;
-    padding: .5rem .7rem;
-    border-radius: .3rem;
+    background-color: #F2F4F7;
+    font-family: "Plus Jakarta Sans", sans-serif;
 }
 
-.icon-social-top {
+.bg-header {
+    background-color: #FAFDFD;
     position: relative;
-    margin-top: .8rem;
-    min-width: 18rem;
-    background-color: rgba(255, 255, 255, 0.8);
-    border-radius: 5px;
-    padding: 5px 0 3px 0;
-    text-align: center;
+    z-index: 99;
 }
-.icon-social-top svg {
-    max-width: 21px;
+
+.bg-nave {
+    background-color: #fff;
+    box-shadow: 0 1px 2px rgba(0, 0, 0, 0.1);
 }
-.icon-social-top a {
-    margin: 0 7px;
+
+.image-cover {
+    position: relative;
 }
-.icon-social-top .fa-facebook {
-    fill: #0A20E2;
+
+.image-cover::before {
+    content: "";
+    position: absolute;
+    inset: 0;
+    border-radius: 0 0 30px 30px;
+    background-color: rgba(0, 0, 0, 0.6);
 }
-.icon-social-top .fa-instagram {
-    fill: #A30C42;
+
+.image-cover img {
+    max-width: 100%;
+    object-fit: cover;
+    border-radius: 0 0 30px 30px;
 }
-.icon-social-top .fa-twitter {
-    fill: #117DAB;
+
+.border-image img {
+    position: relative;
+    max-width: 150px;
+    border-radius: 50%;
+    margin-top: -50px;
+    z-index: 99;
+    border: 8px solid #fff;
 }
-.icon-social-top .fa-linkedin {
-    fill: #2E67BD;
+
+.display-profile h4 {
+    font-family: "Red Hat Display", sans-serif;
+    font-weight: 800;
+    margin-top: 4px;
+    margin-bottom: 2px;
 }
-.icon-social-top .fa-graduation-cap {
-    fill: #073C7A;
+
+.display-profile p {
+    font-weight: 400;
+    margin-bottom: 10px;
 }
-.icon-social-top .fa-github {
+
+.group-sosmed {
+    display: flex;
+    gap: 10px;
+}
+
+.group-sosmed i {
+    font-size: 1.4em;
+}
+
+.nav-tabs {
+    font-family: "Red Hat Display", sans-serif;
+}
+
+.nav-tabs .nav-link {
+    color: #418C39;
+    font-weight: 500;
+    padding-top: 20px;
+}
+
+.nav-tabs .nav-link.active {
+    background-color: #F1CE8B;
+    border-bottom-color: #F1CE8B;
+}
+
+.content-capsule {
+    font-family: "Plus Jakarta Sans", sans-serif;
+    position: relative;
+    width: 100%;
+    border-radius: 12px;
+    background-color: white;
+    box-shadow: 0 1px 2px rgba(0, 0, 0, 0.1);
+    border-bottom: 3px solid #F1CE8B;
+}
+
+.group-sosmed .fa-facebook {
+    color: #0A20E2;
+}
+
+.group-sosmed .fa-instagram {
+    color: #A30C42;
+}
+
+.group-sosmed .fa-twitter {
+    color: #117DAB;
+}
+
+.group-sosmed .fa-linkedin {
+    color: #2E67BD;
+}
+
+.group-sosmed .fa-graduation-cap {
+    color: #073C7A;
+}
+
+.group-sosmed .fa-github {
     color: #171515;
 }
-
-/* aboutme */
-#aboutme h1, #galery h1, #blogger h1 {
-    font-size: 2.3rem;
-    font-weight: 400;
-}
-#aboutme h1, #galery h1, #blogger h2, #opus h2 {
-    font-family: 'Kanit', sans-serif;
-}
-#aboutme img {
-    max-width: 90%;
-}
-#aboutme .green, #blogger .green {
-    color: #6CB132;
-}
-#aboutme .context, #galery .image-row {
-    margin-top: 40px;
-}
-#aboutme .context h2 {
-    font-size: 1.4rem;
-    font-weight: 500;
-}
-#aboutme .context p {
-    font-size: 1rem;
-    font-weight: 400;
-    line-height: 1.9;
-    font-family: 'Montserrat', sans-serif;
-}
-#aboutme .context h4 {
-    font-size: 20px;
-    font-weight: 500;
-}
-#aboutme .context ul {
-    list-style-image: url("../img/ellipse.webp");
-}
-#aboutme .context li {
-    font-size: 1rem;
-    line-height: 1.8;
-}
-#aboutme .context li>span {
-    font-size: .9rem;
-}
-
- /* Footer
-  */
-
-footer {
-    background-color: #181818;
-    padding: 2.7rem 0;
-}
-footer .row {
-    color: #fff;
-}
-footer h2 {
-    font-size: 30px;
-    font-weight: 300;
-    margin-bottom: .7rem;
-}
-footer p {
-    font-size: 14px;
-    font-weight: 400;
-    margin-top: 3.8rem;
-}
-
-footer .icon-social-bottom a {
-    padding: 10px;
-    border-radius: 50%;
-    background-color: #EFECEC;
-    width: 40px;
-    height: 45px;
-}
-
-footer .icon-social-bottom svg {
-    max-width: 20px;
-}
-footer .icon-social-bottom a {
-   margin-right: 1.2rem;
-}
-
-@media (max-width: 579px) {
-    .top .row {
-        height: 84vh;
-    }
-}
-
-body {
-    font-family: Arial, Helvetica, sans-serif;
-    background: #333;
-    color: #fff;
-    height: 100vh;
-    line-height: 1.5;
-    overflow: hidden;
-}
-
-.container-slide {
-    width: 100%;
-    height: 100%;
-    /* CSS Smooth Scroll */
-    overflow-y: scroll; 
-    scroll-behavior: smooth;
-    scroll-snap-type: y mandatory;
-}
-
-.lead {
-    font-size: 1.18rem;
-}
-
-section {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    width: 100%;
-    min-height: 50vh;
-
-    /* Scroll Snap */
-    /* scroll-snap-align: center; */
-}
-
-section#home {
-    min-height: 100vh;
-}
-/* Section Images */
-section#home {
-    background: url('../img/faisol_mount.jpg') no-repeat center center/cover;
-}
-section#aboutme {
-    padding: 4rem 0 0 0;
-}
-
-section h1 {
-    font-size: 1.8rem;
-}
-
-section h1, section p, section img {
-    position: relative;
-    text-align: center;
-}
-section#home img {
-    max-width: 15rem;
-    margin-bottom: .6rem;
-}
-
-section#blogger {
-    justify-content: start;
-    min-height: 20rem;
-}
-section#blogger .blogger-section {
-    margin-top: 1rem;
-    width: 100%;
-    display: flex;
-    align-items: center;
-    flex-direction: column;
-    background: url("../img/contour-background.png") #262626;
-    padding-bottom: 2rem;
-
-}
-section#blogger .card {
-    color: #333;
-}
-section#blogger p {
-    text-align: left;
-}
-section#blogger small {
-    font-size: .73em;
-}
-
-.btn-read {
-    color: #fff;
-    background-color: #377504;
-    border-color: #377504;
-}
-.btn-read:hover {
-    color: #fff;
-    background-color: #244F00;
-    border-color: #244F00;
-}
-.btn-more {
-    color: #D7E261;
-    border-color: #D7E261;
-}
-.btn-email {
-    color: #fff;
-    background-color: #d9491e;
-    border-color: #d9491e;
-}
-.btn-tele {
-    color: #fff;
-    background-color: #188ad2;
-    border-color: #188ad2;
-}
-.btn-run {
-    color: #fff;
-    background-color: #A78700;
-    border-color: #A78700;
-}
-.btn-more:hover {
-    background-color: #D7E261;
-}
-.image-row{
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
-    padding: 0px 100px 70px 100px;
-}
-.column{
-    flex: 25%;
-    max-width: 16%;
-}
-.img-hover-zoom{
-    height: auto;
-    overflow: hidden;
-    border: 5px solid #ffff;
-}
-.img-hover-zoom img{
-    vertical-align: middle;
-    margin: 0;
-    padding: 0;
-    border: 0;
-    transition:  transform .5s ease;
-}
-.img-hover-zoom:hover img{
-    transform: scale(1.5);
-}
-
-@media screen and (max-width: 800px) {
-    .column{
-        flex: 50%;
-        max-width: 50%;
-    }
-}
-
-@media screen and (max-width: 500px) {
-    .column{
-        flex: 100%;
-        max-width: 50%;
-    }
-    .image-row {
-        padding: 0px 0px 50px 0px;
-    }
-}
-  
-
-
- /* Responsive
-  */
-/* @media (min-width: 576px) {
-    .img-top-header {
-        min-height: 100vh;
-    }
-    .top .col-sm-5 {
-        width: 37.223%;
-    }
-    .top .col-sm-7 {
-        width: 62.75%;
-        padding: 0;
-    }
-    .text-top-left {
-        padding-left: 152px;
-    }
-
-    .navbar {
-        min-height: 53px;
-        margin-top: -5rem;
-    }
-    .img-top-header > img {
-        margin-top: calc(15vh + 0.4rem);
-    }
-
-} */
