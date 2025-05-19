@@ -42,6 +42,7 @@
   <link
     href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:ital,wght@0,200..800;1,200..800&family=Red+Hat+Display:ital,wght@0,300..900;1,300..900&display=swap"
     rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" />
   <link rel="stylesheet" href="./css/style.css">
   <link rel="stylesheet" href="./css/timeline.css">
 </head>
@@ -53,23 +54,23 @@
         <div class="header-row">
           <div class="row">
             <div class="col">
-              <div class="image-cover">
+              <div class="image-cover animate__animated animate__backInDown">
                 <img src="./img/mount.jpg" alt="..">
               </div>
             </div>
           </div>
           <div class="row justify-content-center mb-2">
-            <div class="col-10">
-              <div class="d-flex justify-content-between">
-                <div class="simple-profile">
-                  <div class="d-flex">
+            <div class="col-10 text-center text-sm-start">
+              <div class="d-flex justify-content-between flex-sm-row flex-column">
+                <div class="simple-profile animate__animated animate__bounce">
+                  <div class="d-flex flex-sm-row flex-column">
                     <div class="border-image">
                       <img src="./img/monas.jpg" alt="..">
                     </div>
                     <div class="display-profile ms-3">
                       <h4>Ach. Faisol S. Arifin</h4>
-                      <p>I'am Sofware Engineer</p>
-                      <div class="group-sosmed">
+                      <p>I'am <span class="typed"></span></p>
+                      <div class="group-sosmed d-flex justify-content-center justify-content-sm-start">
                         <a href="https://instagram.com/faisollarifin" target="_blank" title="instagram"><i
                             class="fa-brands fa-instagram"></i></a>
                         <a href="https://facebook.com/faisols.arifin" target="_blank" title="facebook"><i
@@ -82,9 +83,10 @@
                     </div>
                   </div>
                 </div>
-                <div class="redirect-email d-flex flex-column justify-content-center">
+                <div class="redirect-email d-flex flex-column justify-content-center mt-3 mt-sm-0">
                   <a href="mailto:faisolofficial99@gmail.com" target="_blank" title="Contact Faisol via Email">
-                    <button class="btn btn-warning">Contact via Email <i class="fa-solid fa-envelope"></i></button>
+                    <button class="btn btn-warning  animate__animated animate__wobble">Contact via Email <i
+                        class="fa-solid fa-envelope"></i></button>
                   </a>
                 </div>
               </div>
@@ -99,7 +101,7 @@
       <div class="col col-sm-9">
         <div class="row nav-tab-row justify-content-center">
           <div class="col col-11">
-            <ul class="nav nav-tabs" id="myTab" role="tablist">
+            <ul class="nav nav-tabs animate__animated animate__fadeInDown" id="myTab" role="tablist">
               <li class="nav-item" role="presentation">
                 <button class="nav-link active" id="aboutme-tab" data-bs-toggle="tab" data-bs-target="#aboutme-tab-pane"
                   type="button" role="tab" aria-controls="haboutmetab-pane" aria-selected="true">About me</button>
@@ -140,31 +142,37 @@
             <div class="tab-content" id="myTabContent">
               <div class="tab-pane fade show active" id="aboutme-tab-pane" role="tabpanel" aria-labelledby="aboutme-tab"
                 tabindex="0">
-                <div class="content-capsule px-4 py-3 my-4">
+                <div class="content-capsule px-4 py-3 my-4  animate__animated animate__jackInTheBox">
                   <div class="text-content">
                     <h4>About <span class="green">me</span></h4>
-                    <p>Halo.. let me introduce myself, panggilannya Faisol, pria kelahiran asli Madura,
-                      tepatnya dari kabupaten Sumenep.
-                      Saya pernah mengenyam pendidikan formal di Universitas Trunojoyo Madura dengan jurusan Teknik
-                      Informatika dan lulus di tahun 2022.</p>
-                    <p>
-                      Expertise saya di bidang teknologi digital, biasanya mengkaji tentang teknologi web development,
-                      microservices, serta teknologi artificial intelligence.
-                      Di beberapa kesempatan pernah juga mengikuti pelatihan intensif tentang Cyber Security, Machine
-                      Learning, Digital Marketing, hingga Project Management.</p>
-                    <p>
-                      Disela kesibukan kuliah saya juga bergelut sebagai parttime Programmer pada Lembaga Pendidikan
-                      Ma'arif Nahdlatul Ulama Pusat, untuk mengembangkan sistem terintegrasi dalam hal pendidikan.
-                      Tahun 2023 hingga sekarang mengemban karir sabagai Sofware Engineer di salah satu perusahaan
-                      teknologi, yakni di PT. Informasi Teknologi Indonesia tbk. (Jatis Mobile).
-                      Disamping itu, saya juga membuka jasa untuk pengembangan aplikasi, jadi buat rekan-rekan yang
-                      punya kebutuhan aplikasi bisa kontak saya.</p>
+                    <p>Hello! Let me introduce myself—my name is Faisol. I was born and raised in Madura, specifically
+                      in
+                      Sumenep Regency. I earned my bachelor's degree in Informatics Engineering from Trunojoyo
+                      University
+                      of Madura and graduated in 2022.</p>
+
+                    <p>My expertise lies in digital technology, with a particular focus on eb Backend Engineering,
+                      Microservices,
+                      and Artificial Intelligence. I’ve also had the opportunity to attend intensive training programs
+                      in
+                      Cyber Security, Machine Learning, Digital Marketing, and Project Management.</p>
+
+                    <p>During my university years, I worked part-time as a Programmer at the Central Board of Ma’arif NU
+                      Education Institution, where I helped develop integrated educational systems. Since 2023, I've
+                      been
+                      building my career as a Software Engineer at PT. Informasi Teknologi Indonesia Tbk (Jatis Mobile),
+                      a
+                      well-known tech company.</p>
+
+                    <p>Aside from my full-time job, I also offer app development services. So, if any of you are in need
+                      of
+                      an application or software solution, feel free to reach out to me!</p>
                   </div>
                 </div>
               </div>
               <div class="tab-pane fade" id="education-tab-pane" role="tabpanel" aria-labelledby="education-tab"
                 tabindex="0">
-                <div class="timeline">
+                <div class="timeline animate__animated animate__jackInTheBox">
                   <div class="timeline-item">
                     <div class="timeline-marker"></div>
                     <div class="timeline-content">
@@ -185,7 +193,7 @@
               </div>
               <div class="tab-pane fade" id="experience-tab-pane" role="tabpanel" aria-labelledby="experience-tab"
                 tabindex="0">
-                <div class="timeline">
+                <div class="timeline animate__animated animate__jackInTheBox">
                   <div class="timeline-item">
                     <div class="timeline-marker"></div>
                     <div class="timeline-content">
@@ -252,82 +260,110 @@
               </div>
               <div class="tab-pane fade" id="portofolio-tab-pane" role="tabpanel" aria-labelledby="portofolio-tab"
                 tabindex="0">
-                <div class="content-capsule px-4 py-3 my-4">
-                  <div class="text-content">
-                    <h4>On Building</h4>
+                <div class="row row-cols-1 row-cols-md-3 g-4 mt-3">
+                  <div class="col">
+                    <div class="card">
+                      <img src="./img/portofolio/Screenshot 2025-05-19 084835.png" class="card-img-top" alt="...">
+                      <div class="card-body">
+                        <h5 class="card-title">Sipinter LP Ma'arif NU PBNU</h5>
+                        <p class="card-text">Sistem untuk pengelolaan data satuan pendidikan dan Manajemen layanan dari LP Ma'arif NU PBNU.</p>
+                        <p class="card-text">Demo: <a href="http://sipinter-dev.maarifnu.or.id/" target="_blank">http://sipinter-dev.maarifnu.or.id</a></p>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="col">
+                    <div class="card">
+                      <img src="./img/portofolio/Screenshot 2025-05-19 085108.png" class="card-img-top" alt="...">
+                      <div class="card-body">
+                        <h5 class="card-title">Kas Pro</h5>
+                        <p class="card-text">Sistem untuk pengelolaan untuk pengelolaan Kas Flow </p>
+                        <p class="card-text">Demo: <a href="http://cashflow-demo.faisolarifin.my.id/" target="_blank">http://cashflow-demo.faisolarifin.my.id</a></p>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="col">
+                    <div class="card">
+                      <img src="./img/portofolio/Screenshot 2025-05-19 085206.png" class="card-img-top" alt="...">
+                      <div class="card-body">
+                        <h5 class="card-title">Laboratorium Teknik Sipil</h5>
+                        <p class="card-text">Sistem Pengelolaan Layanan Laboratorium Teknik Sipil Universitas Wiraraja</p>
+                        <p class="card-text">Demo: <a href="http://lab-demo.faisolarifin.my.id/" target="_blank">http://lab-demo.faisolarifin.my.id</a></p>
+                      </div>
+                    </div>
+                  </div>
+                  
+                </div>
+              </div>
+            </div>
+            <div class="tab-pane fade" id="research-tab-pane" role="tabpanel" aria-labelledby="research-tab"
+              tabindex="0">
+              <div class="timeline">
+                <div class="timeline-item">
+                  <div class="timeline-marker"></div>
+                  <div class="timeline-content">
+                    <span class="timeline-time">2023</span>
+                    <h3 class="timeline-title">Modifikasi Residual VGG-16 untuk Klasifikasi Sel Darah Putih</h3>
+                    <p></p>
+                  </div>
+                </div>
+                <div class="timeline-item">
+                  <div class="timeline-marker"></div>
+                  <div class="timeline-content">
+                    <span class="timeline-time">2022</span>
+                    <h3 class="timeline-title">Klasifikasi COVID-19 pada Citra Radiografi X-Ray Dada menggunakan
+                      Kombinasi CNN dan LSTM</h3>
+                    <p>Abstrak-Klasifikasi citra merupakan teknik untuk mengelompokkan suatu citra berdasarkan ciri
+                      yang dimiliki pada kelas tertentu. Teknik klasifikasi juga banyak diterapkan dalam bidang
+                      biomedis untuk membantu memecahkan persoalan dalam diagnosis penyakit. Saat ini, pandemi
+                      COVID-19 menjadi wabah yang menyebarkan virus menular berbahaya dan mengakibatkan penyakit
+                      pernafasan parah. Dari insiden tersebut, penggunaan citra radiografi x-ray dada dapat menjadi
+                      salah satu alternatif dalam mendiagnosis infeksi COVID-19. Selain dari penggunaan metode
+                      skrining dengan Reverse Transcription Polymerase Chain Reaction (RT-PCR). Diagnosis dilakukan
+                      dengan mengambil keputusan berdasarkan keadaan citra x-ray yang dihasilkan oleh sebuah model
+                      klasifikasi. Pada penelitian ini, proses pembentukan model klasifikasi dilakukan dengan
+                      menerapkan model deep learning (CNN-LSTM). Penelitian ini juga dilakukan menggunakan dataset
+                      sekunder yang berasal dari Kaggle repository dengan jumlah 4945. Kemudian dataset dibagi menjadi
+                      2 bagian dengan 5-fold cross validation, sehingga terbentuk 80% data pelatihan dan 20% data
+                      pengujian. Hasil empiris menunjukkan, deep learning dengan arsitektur CNN-LSTM memperoleh hasil
+                      evaluasi dengan rata-rata tingkat akurasi sebesar akurasi sebesar 98,52% dan nilai F1-Score,
+                      yaitu 98,59%. Selain itu, berdasarkan hasil evaluasi dengan grafik Receiver Operating
+                      Characteristic (ROC) untuk seluruh eksperimen didapatkan rata-rata skor Under Curve AUC sebesar
+                      99,9%. Sehingga berdasarkan interpretasi nilai AUC yang ada, maka model CNN-LSTM dapat
+                      dikategorikan sangat baik karena memiliki rata-rata nilai AUC di atas 0,9 (90%).
+                      ResearchGate Logo
+
+                      Discover the world's research
+
+                      25+ million members
+                      160+ million publication pages
+                      2.3+ billion citations
+
+                    </p>
+                  </div>
+                </div>
+                <div class="timeline-item">
+                  <div class="timeline-marker"></div>
+                  <div class="timeline-content">
+                    <span class="timeline-time">2021</span>
+                    <h3 class="timeline-title">Tutorial Framework CodeIgniter 4 untuk Pemula dan Implementasi pada
+                      Aplikasi Ujian Toefl</h3>
+                    <p>Aplikasi web menjadi sistem yang populer digunakan saat ini, seperti untuk kebutuhan
+                      e-commerce, e-government, e-learning, maupun sebagai program kompleks lainnya untuk kebutuhan
+                      tertentu. Dalam pengembangan aplikasi web besar, pastinya kita akan membutuhkan sarana yang
+                      dapat mempermudah dalam pengembangan aplikasi, mulai dari pengelolaan database, hingga keamanan
+                      aplikasi. Salah satu solusi yang dapat kita gunakan adalah menggunakan framework dari bahasa
+                      pemrograman tertentu. Framework adalah sebuah kerangka kerja yang dapat digunakan seorang
+                      developer untuk mempermudah dalam mengembangkan sebuah aplikasi. Didalam sebuah framework telah
+                      disediakan fungsi-fungsi yang dapat kita gunakan sesuai kebutuhan</p>
                   </div>
                 </div>
               </div>
-              <div class="tab-pane fade" id="research-tab-pane" role="tabpanel" aria-labelledby="research-tab"
-                tabindex="0">
-                <div class="timeline">
-                  <div class="timeline-item">
-                    <div class="timeline-marker"></div>
-                    <div class="timeline-content">
-                      <span class="timeline-time">2023</span>
-                      <h3 class="timeline-title">Modifikasi Residual VGG-16 untuk Klasifikasi Sel Darah Putih</h3>
-                      <p></p>
-                    </div>
-                  </div>
-                  <div class="timeline-item">
-                    <div class="timeline-marker"></div>
-                    <div class="timeline-content">
-                      <span class="timeline-time">2022</span>
-                      <h3 class="timeline-title">Klasifikasi COVID-19 pada Citra Radiografi X-Ray Dada menggunakan
-                        Kombinasi CNN dan LSTM</h3>
-                      <p>Abstrak-Klasifikasi citra merupakan teknik untuk mengelompokkan suatu citra berdasarkan ciri
-                        yang dimiliki pada kelas tertentu. Teknik klasifikasi juga banyak diterapkan dalam bidang
-                        biomedis untuk membantu memecahkan persoalan dalam diagnosis penyakit. Saat ini, pandemi
-                        COVID-19 menjadi wabah yang menyebarkan virus menular berbahaya dan mengakibatkan penyakit
-                        pernafasan parah. Dari insiden tersebut, penggunaan citra radiografi x-ray dada dapat menjadi
-                        salah satu alternatif dalam mendiagnosis infeksi COVID-19. Selain dari penggunaan metode
-                        skrining dengan Reverse Transcription Polymerase Chain Reaction (RT-PCR). Diagnosis dilakukan
-                        dengan mengambil keputusan berdasarkan keadaan citra x-ray yang dihasilkan oleh sebuah model
-                        klasifikasi. Pada penelitian ini, proses pembentukan model klasifikasi dilakukan dengan
-                        menerapkan model deep learning (CNN-LSTM). Penelitian ini juga dilakukan menggunakan dataset
-                        sekunder yang berasal dari Kaggle repository dengan jumlah 4945. Kemudian dataset dibagi menjadi
-                        2 bagian dengan 5-fold cross validation, sehingga terbentuk 80% data pelatihan dan 20% data
-                        pengujian. Hasil empiris menunjukkan, deep learning dengan arsitektur CNN-LSTM memperoleh hasil
-                        evaluasi dengan rata-rata tingkat akurasi sebesar akurasi sebesar 98,52% dan nilai F1-Score,
-                        yaitu 98,59%. Selain itu, berdasarkan hasil evaluasi dengan grafik Receiver Operating
-                        Characteristic (ROC) untuk seluruh eksperimen didapatkan rata-rata skor Under Curve AUC sebesar
-                        99,9%. Sehingga berdasarkan interpretasi nilai AUC yang ada, maka model CNN-LSTM dapat
-                        dikategorikan sangat baik karena memiliki rata-rata nilai AUC di atas 0,9 (90%).
-                        ResearchGate Logo
-
-                        Discover the world's research
-
-                        25+ million members
-                        160+ million publication pages
-                        2.3+ billion citations
-
-                      </p>
-                    </div>
-                  </div>
-                  <div class="timeline-item">
-                    <div class="timeline-marker"></div>
-                    <div class="timeline-content">
-                      <span class="timeline-time">2021</span>
-                      <h3 class="timeline-title">Tutorial Framework CodeIgniter 4 untuk Pemula dan Implementasi pada
-                        Aplikasi Ujian Toefl</h3>
-                      <p>Aplikasi web menjadi sistem yang populer digunakan saat ini, seperti untuk kebutuhan
-                        e-commerce, e-government, e-learning, maupun sebagai program kompleks lainnya untuk kebutuhan
-                        tertentu. Dalam pengembangan aplikasi web besar, pastinya kita akan membutuhkan sarana yang
-                        dapat mempermudah dalam pengembangan aplikasi, mulai dari pengelolaan database, hingga keamanan
-                        aplikasi. Salah satu solusi yang dapat kita gunakan adalah menggunakan framework dari bahasa
-                        pemrograman tertentu. Framework adalah sebuah kerangka kerja yang dapat digunakan seorang
-                        developer untuk mempermudah dalam mengembangkan sebuah aplikasi. Didalam sebuah framework telah
-                        disediakan fungsi-fungsi yang dapat kita gunakan sesuai kebutuhan</p>
-                    </div>
-                  </div>
-                </div>
-              </div>
-              <div class="tab-pane fade" id="articles-tab-pane" role="tabpanel" aria-labelledby="articles-tab"
-                tabindex="0">
-                <div class="content-capsule px-4 py-3 my-4">
-                  <div class="text-content">
-                    <h4>On Building</h4>
-                  </div>
+            </div>
+            <div class="tab-pane fade" id="articles-tab-pane" role="tabpanel" aria-labelledby="articles-tab"
+              tabindex="0">
+              <div class="content-capsule px-4 py-3 my-4 animate__animated animate__jackInTheBox">
+                <div class="text-content">
+                  <h4>On Building</h4>
                 </div>
               </div>
             </div>
@@ -336,10 +372,12 @@
       </div>
     </div>
   </div>
+  </div>
 
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.6/dist/js/bootstrap.bundle.min.js"
     integrity="sha384-j1CDi7MgGQ12Z7Qab0qlWQ/Qqz24Gc6BM0thvEMVjHnfYGF0rmFCozFSxQBxwHKO"
     crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.11"></script>
   <script src="./js/script.js"></script>
 </body>
 
