@@ -1,5 +1,18 @@
 User-agent: *
 Allow: /
-Disallow:
-Sitemap: https://faisolarifin.my.id/sitemap.xml
+
+# Disallow access to CSS and JS source maps (if any)
+Disallow: /*.map
+
+# Allow all CSS and JS files
+Allow: /css/
+Allow: /js/
+Allow: /img/
+
+# Sitemap location
+Sitemap: https://faisolarifin.github.io/sitemap.xml
+
+# Additional sitemaps for specific content
+# Sitemap: https://faisolarifin.github.io/portfolio-sitemap.xml
+# Sitemap: https://faisolarifin.github.io/research-sitemap.xml
 
